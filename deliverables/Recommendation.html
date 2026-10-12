@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Raising MoveInSync's Play Store Rating</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#ffffff; --ink:#1c1c1a; --muted:#62615c; --line:#e4e3de; --soft:#f6f6f3; --accent:#1f6f5c; --bad:#b03a2e;
+  --app:#e3edfb; --app-ink:#1d4e89; --prod:#f6ebdc; --prod-ink:#8a4d0f; --ops:#ece6f6; --ops-ink:#55308d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161615; --ink:#ecebe6; --muted:#a3a29b; --line:#34332f; --soft:#1f1f1d; --accent:#5fc3a6; --bad:#ef7b6e;
+  --app:#1f2c3d; --app-ink:#9cc3f5; --prod:#3a2c1b; --prod-ink:#f0c18a; --ops:#2c2340; --ops-ink:#c6aef0; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.6 Inter,system-ui,sans-serif; }
+main { max-width:860px; margin:0 auto; padding:40px 16px 64px; }
+h1 { font-size:28px; line-height:1.25; margin:0 0 6px; letter-spacing:-.015em; }
+h2 { font-size:19px; margin:40px 0 10px; padding-top:8px; border-top:1px solid var(--line); }
+h3 { font-size:16px; margin:0 0 6px; }
+.meta { color:var(--muted); font-size:13px; margin-bottom:24px; }
+.tldr { background:var(--soft); border-left:4px solid var(--accent); padding:16px 20px; border-radius:6px; }
+.tldr p { margin:0 0 8px; } .tldr ol { margin:8px 0 0; padding-left:20px; } .tldr li { margin-bottom:4px; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin:16px 0; }
+.stat { border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+.stat b { display:block; font-size:24px; letter-spacing:-.02em; } .stat span { font-size:13px; color:var(--muted); }
+.terms { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:6px 18px; font-size:14px; background:var(--soft); border-radius:8px; padding:12px 16px; margin:12px 0; }
+.terms .t-title { grid-column:1/-1; font-weight:600; }
+.finding { margin:18px 0; } .finding p { margin:6px 0; }
+.note { font-size:14px; background:var(--soft); border-radius:6px; padding:8px 12px; margin-top:8px; }
+.ticket { border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:12px 0; break-inside:avoid; }
+.ticket .head { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; margin-bottom:6px; }
+.ticket .id { font-weight:700; color:var(--accent); }
+.pill { font-size:11px; font-weight:600; padding:2px 8px; border-radius:99px; }
+.p-app { background:var(--app); color:var(--app-ink); } .p-prod { background:var(--prod); color:var(--prod-ink); } .p-ops { background:var(--ops); color:var(--ops-ink); }
+.p-eff { border:1px solid var(--line); color:var(--muted); }
+.ticket dl { display:grid; grid-template-columns:96px 1fr; gap:4px 12px; margin:6px 0 0; font-size:14px; }
+.ticket dt { color:var(--muted); } .ticket dd { margin:0; } .ticket ul { margin:0; padding-left:18px; }
+blockquote { margin:6px 0; padding:4px 12px; border-left:2px solid var(--line); color:var(--muted); font-size:14px; }
+table { width:100%; border-collapse:collapse; font-size:14px; margin:8px 0; } th,td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; color:var(--muted); font-weight:500; }
+.scroll { overflow-x:auto; }
+code { font-size:13px; background:var(--soft); padding:1px 5px; border-radius:4px; }
+.muted { color:var(--muted); }
+@media (max-width:560px) { .ticket dl { grid-template-columns:1fr; } .ticket dt { margin-top:6px; } }
+@media print { body { font-size:12.5px; } main { padding:0; } h2 { break-after:avoid; } }
+</style></head>
+<body><main>
+
+<h1>How to raise MoveInSync's Play Store rating, and what to fix first</h1>
+<div class="meta">Based on all 24,315 real Play Store reviews of the MoveInSync employee app (2014 to 11 Oct 2026), plus the driver apps and two competitor apps. Data collected on 12 Oct 2026.</div>
+
+<div class="tldr">
+<p><b>The short version</b></p>
+<p>The app shows <b>4.64★</b> on the Play Store, which looks good. But that number mostly comes from people who tap 5 stars without writing anything. People who actually <b>write a review</b> give only <b>3.81★</b> on average, and <b>more than 1 in 4 of them (28%) give 1 or 2 stars</b>. That hasn't improved in two years.</p>
+<p>Most complaints are about problems <b>inside the app</b>, not about the cabs, so MoveInSync's own team can fix them. Recent app updates made things worse, and the company <b>stopped replying</b> to reviews in mid-2024.</p>
+<p><b>Five things to do first. Each one can start tomorrow, and most take under two weeks:</b></p>
+<ol>
+<li><b>Fix the "not installed from Play Store" error.</b> Since version 12.16 the app sometimes refuses to open, and users have to delete and reinstall it every few days.</li>
+<li><b>Let users skip the trip rating.</b> Today the app forces a rating after every ride before you can see your OTP or track your cab. Angry users then give 1 star on the Play Store.</li>
+<li><b>Reply to every bad review within 24 hours.</b> MoveInSync used to reply to 97% of reviews. Now it replies to 1%.</li>
+<li><b>Release new versions to a small group first.</b> Ship to 5% of users, check for new complaints, and only then release to everyone. 5 of the last 8 updates made ratings worse.</li>
+<li><b>Undo the annoying changes in the latest version (12.19).</b> The OTP is now hidden behind a seatbelt pop-up, users must accept the policy every time they open the app, and pop-ups keep repeating.</li>
+</ol>
+</div>
+
+<div class="stats">
+  <div class="stat"><b>4.64★</b><span>Rating shown on the Play Store (from 114,880 ratings)</span></div>
+  <div class="stat"><b>3.81★</b><span>Average rating of people who wrote a review (last 3 months)</span></div>
+  <div class="stat"><b>28%</b><span>of written reviews are 1–2★, the same for 2 years</span></div>
+  <div class="stat"><b>1%</b><span>of bad reviews get a reply (it was ~97% until early 2024)</span></div>
+</div>
+
+<div class="terms">
+  <div class="t-title">Key words used in this document</div>
+  <div><b>Written review:</b> a rating that comes with text. These are what new users read.</div>
+  <div><b>1–2★ share:</b> out of all written reviews, the percentage that are 1 or 2 stars ("bad reviews").</div>
+  <div><b>OTP:</b> the one-time code. It's used to log in, and the rider shows it to the driver when boarding.</div>
+  <div><b>Version (e.g. 12.19):</b> an app update pushed to users' phones.</div>
+  <div><b>"Pts" (points):</b> a change in a percentage. Going from 24% to 35% is +11 pts.</div>
+  <div><b>Problem type:</b> a kind of complaint, e.g. "OTP not received". I sorted reviews into 17 of these.</div>
+</div>
+
+<h2>1. Why the rating is where it is</h2>
+
+<div class="finding"><h3>Finding 1: The 4.64★ hides what unhappy users are saying</h3>
+<p>86% of all Play Store ratings for the app are 5 stars. Most of these are quick taps, usually when the app asks "Rate us", with no text. People who take the time to write give <b>3.81★</b> on average, and those written reviews are what a new employee reads before installing.</p>
+<p>A competitor, Safetrax, shows the same pattern (4.72★ on the store, but only 2.89★ in written reviews). So the store number on its own is not a good guide. <b>The written-review average and the 1–2★ share are better numbers to track.</b></p></div>
+
+<div class="finding"><h3>Finding 2: More than half the problem is inside the app</h3>
+<p>I sorted every complaint into one of 17 problem types (for example "app crashes" or "OTP not received") and noted who can fix each one. To measure how much each problem hurts, I counted <b>stars lost</b>: a 1★ review loses 4 stars (5 − 1), a 3★ review loses 2, and so on. If a review mentions two problems, each gets half.</p>
+<div class="scroll"><table>
+<tr><th>Who can fix it</th><th>Share of the damage</th><th>Main problems</th></tr>
+<tr><td><span class="pill p-app">App developers</span></td><td><b>32%</b></td><td>App crashes or won't open (10%), "not installed from Play Store" error (6%), OTP not received (5%), wrong cab location or arrival time (5%), slow app (4%)</td></tr>
+<tr><td><span class="pill p-prod">Product / design team</span></td><td><b>21%</b></td><td>Rules for booking, cancelling and "no-show" (8%), new design is confusing (6%), forced ratings and pop-ups (4%), no way to complain inside the app (2%)</td></tr>
+<tr><td><span class="pill p-ops">Operations / cab vendors</span></td><td><b>21%</b></td><td>Cabs late or not assigned, helpdesk doesn't answer, long routes, rude drivers</td></tr>
+<tr><td class="muted">Not specific</td><td>27%</td><td class="muted">Reviews like "worst app" with no detail</td></tr>
+</table></div>
+<p>Together that is <b>52%</b> (31.5% + 20.8%; the rounded numbers above look like 53%). More than half of the damage can be fixed by the team that builds the app, without changing any cab vendor.</p></div>
+
+<div class="finding"><h3>Finding 3: App updates keep making the rating worse</h3>
+<p>Percentage of written reviews that were 1–2★, for each app version:</p>
+<p>12.11 → 21% · 12.12 → 21% · <b>12.13 → 29%</b> · <b>12.14 → 30%</b> · 12.15 → 23% · <b>12.16 → 29%</b> · <b>12.17 → 30%</b> · 12.18 → 24% · <b>12.19 (current) → 35%</b></p>
+<p>A good version gets about 21–24% bad reviews, and a bad version gets 29–35%. Every bad update went out to <b>all users at once</b>, so everyone was affected before anyone noticed the problem. The two worst:</p>
+<ul>
+<li><b>Version 12.16 (23 July):</b> a new error appeared saying "this app was not downloaded from Play Store", even for people who did download it from there. It comes back every 2–3 days, and the only fix is to delete and reinstall the app. Before July there were 0–2 such complaints every 3 months. From July to September there were 16, making it the fastest-growing problem.</li>
+<li><b>Version 12.19 (21 September):</b> the app crashes on new Android 17 phones (Pixel 8, OnePlus 12), the OTP is now hidden behind a new seatbelt pop-up, and reviews say "bring back the old version".</li>
+</ul>
+<blockquote>"after 48 hours it shows an error. you haven't installed it from playstore try and reinstall it." (3★, version 12.16.1)</blockquote>
+<blockquote>"when you click view otp, it pops up the seat belt safely first. Why do you ask for user input one more click… I should be able to see the otp in one click." (2★, version 12.19)</blockquote></div>
+
+<div class="finding"><h3>Finding 4: Forcing users to rate their trip creates 1★ reviews</h3>
+<p>After every ride (twice a day), the app forces you to rate the trip. There is no "Skip" button, and you can't track your cab or scan the boarding QR code until you rate. 25 reviews complain about exactly this (average 1.7★). A couple even say the rating screen only lets you choose 4 or 5 stars.</p>
+<blockquote>"forcing me to give rating after every ride, so I came here to give you 1 star. because if I don't rate, I can't use the app as there is no skip option." (1★, 8 Oct 2026)</blockquote>
+<p class="note">⚠️ Google does not allow apps to show the rating option only to happy users, or to offer only high stars ("review gating"). It's worth checking for that reason alone.</p></div>
+
+<div class="finding"><h3>Finding 5: Nobody replies anymore, and there's nowhere else to complain</h3>
+<p>From mid-2022 to early 2024, MoveInSync replied to about 97% of reviews. From mid-2024 that dropped to about 1%. The few replies that remain are copy-paste, e.g. "Thank you very much for your review!!!" sent to a 1★ complaint. Users also say there is no "report a problem" option inside the app, so they complain on the Play Store instead.</p></div>
+
+<h2>2. What to do, in order</h2>
+<p class="muted">The quickest wins with the biggest effect come first. Effort: <b>S</b> = a few days, <b>M</b> = 2–4 weeks, <b>L</b> = about 3 months. "Done when" says how we'll know it worked; the weekly report checks this automatically.</p>
+
+<h3 style="margin-top:20px">Now (weeks 1–2)</h3>
+
+<div class="ticket"><div class="head"><span class="id">R1</span><b>Fix the "not installed from Play Store" error</b><span class="pill p-app">App developers</span><span class="pill p-eff">Effort S</span></div>
+<dl><dt>Problem</dt><dd>Since version 12.16, the app sometimes won't open and says it wasn't installed from the Play Store, even when it was. This happens every 2–3 days or after the app updates itself. Users have to reinstall it just to get to work.</dd>
+<dt>Likely cause</dt><dd>Version 12.16 probably added or changed a security check that confirms the app came from the Play Store, and that check is giving wrong answers, most likely after automatic updates. (Places to look: the "App integrity" settings in the Play Console, or a Google "Play Integrity" check in the code.)</dd>
+<dt>Fix</dt><dd><ul><li>Compare what changed in that security check between versions 12.15 and 12.16.</li>
+<li>Quick fix: if the check fails, <b>still let the app open</b>, but record the failure so the team can investigate. Only block a user if the check fails many times in a row.</li>
+<li>Once it's fixed, reply to the ~20 people who reported it and ask them to update.</li></ul></dd>
+<dt>Done when</dt><dd>No new reviews about this error for 3 weeks.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R2</span><b>Let users skip the trip rating</b><span class="pill p-prod">Product</span><span class="pill p-app">App developers</span><span class="pill p-eff">Effort S</span></div>
+<dl><dt>Problem</dt><dd>The trip rating pops up after every ride, can't be skipped, and blocks the OTP, tracking and QR screens.</dd>
+<dt>Fix</dt><dd><ul><li>Add a "Skip" button. Never show the rating on top of the OTP, tracking, QR or SOS screens; show it as a small card on the home screen instead.</li>
+<li>Ask at most once a week, or right after a trip the user said was late.</li>
+<li>Allow every rating from 1 to 5 stars. Send low trip ratings to the client company's transport desk, which can actually fix cab problems.</li>
+<li>Show Google's "Rate us on Play Store" pop-up only after a trip that went well (on time and completed), and never right after the trip-rating screen.</li></ul></dd>
+<dt>Done when</dt><dd>Complaints about forced ratings stop after the next update.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R3</span><b>Reply to every bad review within 24 hours</b><span class="pill p-ops">Support team</span><span class="pill p-eff">Effort S, then about 1 hour a day</span></div>
+<dl><dt>Problem</dt><dd>Only 1% of bad reviews get a reply, and those replies are copy-paste.</dd>
+<dt>Fix</dt><dd><ul><li>Make one person responsible. There are only about 15–20 bad reviews a week, so this takes under an hour a day.</li>
+<li>My tool already labels each review by problem type, so prepare one helpful reply per type. Examples: for the Play Store error, "this is fixed in version 12.20, please update"; for OTP problems, explain the other way to log in; for cab problems, give the transport desk contact. AI can write a draft, but a person should check and send it.</li>
+<li>When a fix is released, reply again to everyone who reported that problem. Users often raise their rating after a helpful reply.</li></ul></dd>
+<dt>Done when</dt><dd>90% or more of bad reviews get a reply within 24 hours.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R4</span><b>Release updates to a small group first</b><span class="pill p-app">App developers</span><span class="pill p-eff">Effort S</span></div>
+<dl><dt>Problem</dt><dd>5 of the last 8 updates got 29–35% bad reviews, while a good update gets 21–24%. Each bad update went to all users at once.</dd>
+<dt>Fix</dt><dd>The Play Store lets you release an update to only some of your users. Release to 5% first, then 20%, then 50%, then everyone, over about a week. At each step, check the crash numbers in the Play Console <b>and</b> my weekly report for the new version. If the new version gets more than 5 points more bad reviews than the previous one, stop the release and fix it. Also test on new Android 17 phones before releasing.</dd>
+<dt>Done when</dt><dd>No new version gets more than 3 points more bad reviews than the version before it.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R5</span><b>Undo the annoying changes in version 12.19</b><span class="pill p-prod">Product</span><span class="pill p-app">App developers</span><span class="pill p-eff">Effort S</span></div>
+<dl><dt>Fix</dt><dd><ul><li>Show the ride OTP with one tap. Move the seatbelt reminder to after the rider is in the cab.</li>
+<li>Ask users to accept the transport policy only once (and again only if the policy changes), not every time they open the app.</li>
+<li>Show full-screen announcements only once, always with a close button. Send a cab-delay notification only when the delay changes by 10+ minutes, not every few minutes.</li>
+<li>Fix the crash on Android 17 phones (Pixel 8, OnePlus 12).</li></ul></dd>
+<dt>Done when</dt><dd>"The new update made it worse" complaints fall below 5% of bad reviews.</dd></dl></div>
+
+<h3 style="margin-top:28px">Next (month 1–2)</h3>
+
+<div class="ticket"><div class="head"><span class="id">R6</span><b>Stop logging users out, and show today's trip even without internet</b><span class="pill p-app">App developers</span><span class="pill p-eff">Effort M</span></div>
+<dl><dt>Problem</dt><dd>The app logs users out after a short time, or when the internet drops for a few seconds, and logging back in needs an OTP. Sometimes this happens while the cab is waiting, and the user can't see the cab number, the OTP or the driver's phone number.</dd>
+<dt>Fix</dt><dd>Keep users logged in for up to 30 days, with fingerprint or face unlock to reopen, unless a client company's security policy says otherwise. Never log out just because the internet dropped. Save today's trip details on the phone (cab number, driver, OTP, pickup time, helpdesk number) so they show even offline.</dd>
+<dt>Done when</dt><dd>Almost no complaints about being logged out.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R7</span><b>Make sure the login OTP always arrives</b><span class="pill p-app">App developers</span><span class="pill p-eff">Effort M</span></div>
+<dl><dt>Problem</dt><dd>Some users get no OTP by SMS, WhatsApp or email, sometimes for days, so they can't book or board a cab.</dd>
+<dt>Fix</dt><dd>Track what percentage of OTPs actually get delivered on each channel, with an alert if it drops below 97%. If one SMS company fails, switch automatically to a backup. Show clearly where the OTP was sent ("sent by SMS to ••••21, or resend on WhatsApp in 30 seconds"), and let Android fill in the code automatically. Let users update their phone number themselves if it has changed.</dd>
+<dt>Done when</dt><dd>98% or more of OTPs are delivered, and OTP complaints fall below 3% of bad reviews.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R8</span><b>Add a "Report a problem" button in the app</b><span class="pill p-prod">Product</span><span class="pill p-eff">Effort M</span></div>
+<dl><dt>Problem</dt><dd>There is no way to complain inside the app and see what happens next, so users complain on the Play Store instead.</dd>
+<dt>Fix</dt><dd>Add a "Report a problem" button on the trip and home screens. App bugs go to the developers, with phone details attached automatically. Cab problems go to the client company's transport desk. Show the complaint's status in the app, and tell the user when it's solved.</dd>
+<dt>Done when</dt><dd>More complaints come in through the app, and fewer bad reviews appear on the Play Store.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R9</span><b>Make booking and "no-show" rules clear</b><span class="pill p-prod">Product</span><span class="pill p-eff">Effort M</span></div>
+<dl><dt>Problem</dt><dd>Drivers mark users as a "no-show" (didn't turn up) without warning. When that happens on the morning ride, the ride home is cancelled automatically without telling the user. Users on the waiting list can't rebook, and bookings can't be changed even before the deadline.</dd>
+<dt>Fix</dt><dd>Send a notification 2 minutes before the driver can mark a no-show, with an "I'm coming" button. Tell users clearly if their ride home will be cancelled, and let them keep it. Allow changes and cancellations up to the deadline the client company has set, and show that deadline in the app.</dd>
+<dt>Done when</dt><dd>Complaints about booking and no-shows fall by half.</dd></dl></div>
+
+<h3 style="margin-top:28px">Later (this quarter)</h3>
+
+<div class="ticket"><div class="head"><span class="id">R10</span><b>Make cab tracking and arrival time trustworthy</b><span class="pill p-app">App developers</span><span class="pill p-eff">Effort L</span></div>
+<dl><dt>Fix</dt><dd>Show "cab location updated 40 seconds ago", and grey out the cab icon when its location is old, so users know when to trust the map. Update the cab's location more often when it's close to the pickup point. Stop the arrival time jumping suddenly (e.g. from 5 minutes to 30). Measure how accurate arrival times are, city by city.</dd></dl></div>
+
+<div class="ticket"><div class="head"><span class="id">R11</span><b>Send cab-service complaints to the people who can fix them</b><span class="pill p-ops">Operations / account managers</span><span class="pill p-eff">Effort S</span></div>
+<dl><dt>Fix</dt><dd>21% of the damage comes from late cabs, bad routes, rude drivers and an unreachable helpdesk, which the app team can't fix. Every month, send this part of the report to the account managers and the managers of the cab vendors. Once R8 is live, break complaints down by client company, office and vendor. Escalate any safety complaint the same day.</dd></dl></div>
+
+<h2>3. What results to expect</h2>
+<p>Today, each written review loses about 1.2 stars on average (5 − 3.81). If every app and product problem disappeared, the average would rise by about <b>0.6 stars</b> (52% of 1.2). Realistically we won't fix everything in 3 months, so the targets below assume about half of that, plus the benefit of replying to reviews and of no longer forcing ratings.</p>
+<div class="scroll"><table>
+<tr><th>What we measure</th><th>Today</th><th>Target in 3 months</th></tr>
+<tr><td>Average rating of written reviews (last 3 months)</td><td>3.81★</td><td>4.1★ or higher</td></tr>
+<tr><td>Percentage of written reviews that are 1–2★</td><td>28%</td><td>20% or lower</td></tr>
+<tr><td>Percentage of bad reviews that get a reply</td><td>1%</td><td>90% or higher</td></tr>
+<tr><td>How much worse a new version is than the one before</td><td>+11 pts (12.19)</td><td>+3 pts at most</td></tr>
+<tr><td>Rating shown on the Play Store</td><td>4.64★</td><td>4.7★ or higher</td></tr>
+</table></div>
+
+<h2>4. Answering "How are our Play Store ratings?" every week</h2>
+<p>The brief said this question will keep coming up, so I built a small tool instead of doing the analysis once by hand. It's called <b>Play Store Pulse</b>; it's written in Python and included with this submission.</p>
+<ul>
+<li>One command, <code>python run.py</code>, downloads only the reviews that are new since the last run, labels them by problem type, and rebuilds three things: a dashboard (<code>output/report.html</code>), a short summary to paste into Slack or email (<code>output/digest.md</code>), and a spreadsheet of every review with its labels.</li>
+<li>It can run automatically every Monday (the setup file is included) and post the summary to Slack.</li>
+<li>Its "by version" table tells the team whether to continue or stop a release (R4). Its problem labels pick the right reply for each review (R3).</li>
+<li>To track another app, such as the driver app or a competitor, you add one line to a settings file.</li>
+</ul>
+
+<h2>5. Assumptions and limits</h2>
+<ul>
+<li>I used the public Play Store reviews from India, in English, which is where almost all reviews are. iPhone (App Store) reviews were not included.</li>
+<li>Google doesn't show how the store rating changed month by month, so trends are based on written reviews. The tool now saves the store rating on every run, so that history builds up from today.</li>
+<li>Reviews are labelled by keyword rules that I wrote after reading about 600 bad reviews by hand. When I checked samples, about 80% of labels were correct, so the numbers show the overall picture, not exact counts. About a quarter of bad reviews give no specific reason.</li>
+<li>Some causes, such as the security check behind R1, are my best guess from what users describe, and the developers need to confirm them.</li>
+<li>The expected results are targets to plan around, not guarantees.</li>
+</ul>
+
+<h2>How I did it, and which tools I used</h2>
+<ol>
+<li><b>Found the apps:</b> searched the Play Store for every MoveInSync app (employee app, two driver apps, field app) and the closest competitors (Safetrax, Routematic).</li>
+<li><b>Collected the reviews:</b> downloaded every public review (27,665 in total, 24,315 for the employee app) and the store's own numbers using a free tool called <code>google-play-scraper</code>, and saved them in a small database (SQLite).</li>
+<li><b>Read before counting:</b> read about 600 recent 1–2★ reviews by hand to see what people complain about, and listed 17 problem types, each with who can fix it. Then I wrote rules to label all reviews automatically and checked samples to make sure the labels were right.</li>
+<li><b>Analysed</b> the data with pandas (a Python library for working with tables): trends by month and by app version, which problems cause the most damage, how often the company replies, and how competitors compare. Then I traced specific problems, like the Play Store error, back to the update that introduced them.</li>
+<li><b>Tools:</b> Python, pandas, SQLite, google-play-scraper, Chart.js (for charts). I used Claude Code, an AI coding assistant, to help write the code and to sort through reviews faster. I checked every finding against the real reviews.</li>
+</ol>
+
+</main></body></html>

@@ -1,0 +1,37 @@
+# Answers "How are our Play Store ratings?" every Monday morning, automatically.
+name: weekly-play-store-pulse
+on:
+  schedule:
+    - cron: "30 3 * * 1"   # Mondays 09:00 IST
+  workflow_dispatch: {}
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python run.py
+      # Keep the review DB + rating snapshots in the repo so history accumulates week over week.
+      - name: Commit updated data
+        run: |
+          git config user.name "pulse-bot"
+          git config user.email "pulse-bot@users.noreply.github.com"
+          git add data/reviews.db output/report.html output/digest.md output/analysis.json
+          git commit -m "Weekly Play Store pulse $(date +%F)" || echo "no changes"
+          git push
+      - name: Post digest to Slack
+        if: env.SLACK_WEBHOOK_URL != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python -c "import json;print(json.dumps({'text':open('output/digest.md',encoding='utf-8').read()}))" > payload.json
+          curl -s -X POST -H 'Content-type: application/json' --data @payload.json "$SLACK_WEBHOOK_URL"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: play-store-pulse
+          path: output/
