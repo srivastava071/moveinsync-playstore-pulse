@@ -1,27 +1,27 @@
 {
- "generated_for": "2026-10-24",
+ "generated_for": "2026-11-01",
  "primary_app": "com.moveinsync.ets",
  "apps": [
   {
    "id": "com.moveinsync.ets",
    "name": "MoveInSync (Employee)",
    "role": "own",
-   "written_12m": 2819,
-   "written_avg_12m": 3.8315005321035827,
-   "written_neg_12m": 0.272437034409365,
-   "reply_rate_12m": 0.023767293366442,
-   "score": 4.640726,
-   "ratings": 115412,
+   "written_12m": 2769,
+   "written_avg_12m": 3.8400144456482486,
+   "written_neg_12m": 0.27049476345250995,
+   "reply_rate_12m": 0.021668472372697724,
+   "score": 4.639785,
+   "ratings": 115727,
    "histogram": [
-    7384,
-    860,
-    1181,
-    6979,
-    99003
+    7424,
+    881,
+    1201,
+    6937,
+    99280
    ],
-   "installs": 3243560,
+   "installs": 3256974,
    "version": "12.20.0",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   },
   {
    "id": "com.moveinsync.driver.lite",
@@ -40,9 +40,9 @@
     55,
     515
    ],
-   "installs": 145758,
+   "installs": 147169,
    "version": "Varies with device",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   },
   {
    "id": "com.moveinsync.driver.dco",
@@ -52,18 +52,18 @@
    "written_avg_12m": 2.3333333333333335,
    "written_neg_12m": 0.6666666666666666,
    "reply_rate_12m": 0.0,
-   "score": 3.6785715,
-   "ratings": 56,
+   "score": 3.724138,
+   "ratings": 58,
    "histogram": [
     15,
     1,
     3,
     5,
-    32
+    34
    ],
-   "installs": 22908,
+   "installs": 23223,
    "version": "Varies with device",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   },
   {
    "id": "field.moveinsync.ets",
@@ -82,67 +82,67 @@
     0,
     18
    ],
-   "installs": 6992,
+   "installs": 7035,
    "version": "1.0.93",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   },
   {
    "id": "in.mtap.iincube.safetrax.commuter",
    "name": "Safetrax Commuter",
    "role": "competitor",
-   "written_12m": 112,
-   "written_avg_12m": 2.892857142857143,
-   "written_neg_12m": 0.5089285714285714,
-   "reply_rate_12m": 0.9821428571428571,
-   "score": 4.714701,
-   "ratings": 24192,
+   "written_12m": 110,
+   "written_avg_12m": 2.890909090909091,
+   "written_neg_12m": 0.509090909090909,
+   "reply_rate_12m": 0.9818181818181818,
+   "score": 4.714699,
+   "ratings": 24213,
    "histogram": [
-    944,
-    160,
-    321,
-    1999,
-    20765
+    949,
+    159,
+    319,
+    1988,
+    20792
    ],
-   "installs": 538590,
+   "installs": 539556,
    "version": "2.1.74",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   },
   {
    "id": "com.nivaata.routematic.tripsheet",
    "name": "Routematic",
    "role": "competitor",
-   "written_12m": 158,
-   "written_avg_12m": 3.848101265822785,
-   "written_neg_12m": 0.26582278481012656,
+   "written_12m": 160,
+   "written_avg_12m": 3.88125,
+   "written_neg_12m": 0.25625,
    "reply_rate_12m": 0.0,
-   "score": 4.538841,
-   "ratings": 8055,
+   "score": 4.542079,
+   "ratings": 8083,
    "histogram": [
-    625,
-    119,
-    297,
-    258,
-    6753
+    609,
+    129,
+    309,
+    249,
+    6782
    ],
-   "installs": 511035,
+   "installs": 512085,
    "version": "6.3.20",
-   "snapshot_date": "2026-10-26"
+   "snapshot_date": "2026-11-02"
   }
  ],
  "recent": {
   "window_days": 90,
-  "reviews": 708,
-  "negative": 203,
-  "avg": 3.7937853107344632,
-  "prev_avg": 3.842710997442455,
-  "neg_share": 0.2867231638418079,
-  "prev_neg_share": 0.2672634271099744,
-  "unclassified_share": 0.2413793103448276,
+  "reviews": 695,
+  "negative": 198,
+  "avg": 3.7985611510791366,
+  "prev_avg": 3.852085967130215,
+  "neg_share": 0.28489208633093527,
+  "prev_neg_share": 0.2667509481668774,
+  "unclassified_share": 0.24242424242424243,
   "stars_lost_by_owner": {
-   "app": 0.32825917252146763,
-   "service": 0.2324355971896956,
-   "product": 0.17349726775956284,
-   "unclassified": 0.265807962529274
+   "app": 0.30698602794411173,
+   "service": 0.2489021956087824,
+   "product": 0.17584830339321356,
+   "unclassified": 0.2682634730538922
   },
   "themes": [
    {
@@ -150,11 +150,11 @@
     "label": "Crashes / won't open / blank screen",
     "owner": "app",
     "neg_reviews": 27,
-    "share_of_negative": 0.1330049261083744,
-    "prev_share": 0.11961722488038277,
-    "change_pts": 0.013387701227991614,
-    "stars_lost_share": 0.11436377829820452,
-    "avg_lift_if_fixed": 0.1379472693032015,
+    "share_of_negative": 0.13636363636363635,
+    "prev_share": 0.12796208530805686,
+    "change_pts": 0.008401551055579493,
+    "stars_lost_share": 0.1181636726546906,
+    "avg_lift_if_fixed": 0.14196642685851318,
     "quotes": [
      {
       "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
@@ -164,17 +164,17 @@
       "thumbs": 2
      },
      {
-      "text": "can you please look after the bug because I am unable to open this application",
+      "text": "worst app.. after logging in it asks for authentication.. by the time i open authenticator and come back to move in sync.. the app gets error and have to login from first.. this is happening for more than 10times and still i am. unable to open the app",
       "score": 1,
-      "date": "2026-10-19",
+      "date": "2026-10-28",
       "version": "12.20.0",
       "thumbs": 0
      },
      {
-      "text": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every button click it is asking for policy acceptance, which is very unprofessional. overall user experience is very bad. many bugs and a lot of improvement required. completely unhappy with incorrect app functioning",
+      "text": "crashes frequently gets reloaded in middle on marking the cabs",
       "score": 1,
-      "date": "2026-10-05",
-      "version": "12.19.0",
+      "date": "2026-10-26",
+      "version": "12.20.0",
       "thumbs": 0
      }
     ]
@@ -183,12 +183,12 @@
     "id": "service_general",
     "label": "General service complaint (unspecific)",
     "owner": "service",
-    "neg_reviews": 17,
-    "share_of_negative": 0.08374384236453201,
-    "prev_share": 0.04784688995215311,
-    "change_pts": 0.035896952412378905,
-    "stars_lost_share": 0.07962529274004684,
-    "avg_lift_if_fixed": 0.096045197740113,
+    "neg_reviews": 19,
+    "share_of_negative": 0.09595959595959595,
+    "prev_share": 0.04265402843601896,
+    "change_pts": 0.05330556752357699,
+    "stars_lost_share": 0.09101796407185629,
+    "avg_lift_if_fixed": 0.1093525179856115,
     "quotes": [
      {
       "text": "poor service no proper management no schedule adherence no interactive from management lot of negligence.....and many more negatives",
@@ -217,12 +217,12 @@
     "id": "booking_flow",
     "label": "Booking / cancel / edit / no-show rules",
     "owner": "product",
-    "neg_reviews": 20,
-    "share_of_negative": 0.09852216748768473,
-    "prev_share": 0.11483253588516747,
-    "change_pts": -0.016310368397482733,
-    "stars_lost_share": 0.06713505074160812,
-    "avg_lift_if_fixed": 0.08097928436911488,
+    "neg_reviews": 19,
+    "share_of_negative": 0.09595959595959595,
+    "prev_share": 0.11374407582938388,
+    "change_pts": -0.017784479869787928,
+    "stars_lost_share": 0.06706586826347305,
+    "avg_lift_if_fixed": 0.08057553956834532,
     "quotes": [
      {
       "text": "not able to book schedule showing I don't have any shifts..it's very hard to book cab in app",
@@ -248,35 +248,69 @@
     ]
    },
    {
-    "id": "integrity_block",
-    "label": "\"Not installed from Play Store\" lockout",
-    "owner": "app",
-    "neg_reviews": 12,
-    "share_of_negative": 0.059113300492610835,
-    "prev_share": 0.014354066985645933,
-    "change_pts": 0.0447592335069649,
-    "stars_lost_share": 0.05737704918032787,
-    "avg_lift_if_fixed": 0.0692090395480226,
+    "id": "support",
+    "label": "Helpdesk / support unreachable",
+    "owner": "service",
+    "neg_reviews": 17,
+    "share_of_negative": 0.08585858585858586,
+    "prev_share": 0.08530805687203792,
+    "change_pts": 0.0005505289865479351,
+    "stars_lost_share": 0.06107784431137724,
+    "avg_lift_if_fixed": 0.07338129496402877,
     "quotes": [
      {
-      "text": "again and again it's getting stopped.. showing that it can't open as it is not downloaded from playstore. in last 3 weeks I uninstall an installed it for 10 times due to the same error",
-      "score": 2,
-      "date": "2026-08-02",
-      "version": NaN,
-      "thumbs": 1
-     },
-     {
-      "text": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+      "text": "Worst Application Ever saw.. I have been waiting for 3 hours but the cab driver didn't respond My ride got cancelled 3 times and their customer services are even worse we cannot call them and didn't get any help yet",
       "score": 1,
-      "date": "2026-10-09",
-      "version": NaN,
+      "date": "2026-10-27",
+      "version": "12.20.0",
       "thumbs": 0
      },
      {
-      "text": "everytime I download it won't open again after 1-2 days and I have to download it again",
+      "text": "worst app ever,no way to connect with any support or transport team",
       "score": 1,
-      "date": "2026-09-24",
+      "date": "2026-10-26",
+      "version": "12.17.0",
+      "thumbs": 0
+     },
+     {
+      "text": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it.",
+      "score": 1,
+      "date": "2026-10-08",
+      "version": "12.20.0",
+      "thumbs": 0
+     }
+    ]
+   },
+   {
+    "id": "login_otp",
+    "label": "Login / OTP not received",
+    "owner": "app",
+    "neg_reviews": 13,
+    "share_of_negative": 0.06565656565656566,
+    "prev_share": 0.07109004739336493,
+    "change_pts": -0.005433481736799264,
+    "stars_lost_share": 0.053692614770459085,
+    "avg_lift_if_fixed": 0.06450839328537171,
+    "quotes": [
+     {
+      "text": "not getting OTP or Mail OTP every useless App your developer or useless hire better person who knows how to build proper app",
+      "score": 1,
+      "date": "2026-10-13",
+      "version": "12.20.0",
+      "thumbs": 0
+     },
+     {
+      "text": "The new feature and very annoying feature which you have introduced - when you click view otp , it pops up the seat belt safely first. Why do you ask for user input one more click . very annoying I should be able to see the otp in one click.",
+      "score": 2,
+      "date": "2026-10-09",
       "version": "12.19.0",
+      "thumbs": 0
+     },
+     {
+      "text": "I try to login to this app but it's not sending any otp to login without login how we can use this app \ud83d\ude24\ud83d\ude24\ud83d\ude24 technical team please check once about this issue",
+      "score": 1,
+      "date": "2026-10-04",
+      "version": NaN,
       "thumbs": 0
      }
     ]
@@ -285,12 +319,12 @@
     "id": "ux_redesign",
     "label": "New UI / update made it worse",
     "owner": "product",
-    "neg_reviews": 15,
-    "share_of_negative": 0.07389162561576355,
-    "prev_share": 0.08133971291866028,
-    "change_pts": -0.007448087302896728,
-    "stars_lost_share": 0.05581576893052303,
-    "avg_lift_if_fixed": 0.06732580037664783,
+    "neg_reviews": 14,
+    "share_of_negative": 0.0707070707070707,
+    "prev_share": 0.08530805687203792,
+    "change_pts": -0.014600986164967217,
+    "stars_lost_share": 0.05229540918163672,
+    "avg_lift_if_fixed": 0.06282973621103118,
     "quotes": [
      {
       "text": "dislike the new update. Bring the old version back. It was simple and minimalist.",
@@ -319,12 +353,12 @@
     "id": "tracking_eta",
     "label": "Live tracking / ETA inaccurate",
     "owner": "app",
-    "neg_reviews": 18,
-    "share_of_negative": 0.08866995073891626,
-    "prev_share": 0.09569377990430622,
-    "change_pts": -0.007023829165389961,
-    "stars_lost_share": 0.0546448087431694,
-    "avg_lift_if_fixed": 0.06591337099811675,
+    "neg_reviews": 16,
+    "share_of_negative": 0.08080808080808081,
+    "prev_share": 0.0995260663507109,
+    "change_pts": -0.018717985542630086,
+    "stars_lost_share": 0.0499001996007984,
+    "avg_lift_if_fixed": 0.05995203836930455,
     "quotes": [
      {
       "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
@@ -334,85 +368,17 @@
       "thumbs": 2
      },
      {
-      "text": "when we have zoomed in the map to track a vehicle what's the necessity to zoom out and show the ETA",
-      "score": 2,
-      "date": "2026-08-03",
-      "version": "12.16.0",
-      "thumbs": 1
-     },
-     {
       "text": "The app is too slow and is very slow to show the correct location and also the map face is really not good .. worst app to use",
       "score": 1,
       "date": "2026-10-24",
       "version": "12.20.0",
       "thumbs": 0
-     }
-    ]
-   },
-   {
-    "id": "support",
-    "label": "Helpdesk / support unreachable",
-    "owner": "service",
-    "neg_reviews": 15,
-    "share_of_negative": 0.07389162561576355,
-    "prev_share": 0.09090909090909091,
-    "change_pts": -0.017017465293327358,
-    "stars_lost_share": 0.05269320843091335,
-    "avg_lift_if_fixed": 0.0635593220338983,
-    "quotes": [
+     },
      {
-      "text": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it.",
+      "text": "ETA calculator very bad. not sure on what basis its done. google maps always shows 3x the time shown in moveinsync app. tnis app just acts as a booking tool and no use of showing car location and eta.",
       "score": 1,
       "date": "2026-10-08",
-      "version": "12.20.0",
-      "thumbs": 0
-     },
-     {
-      "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram",
-      "score": 1,
-      "date": "2026-09-15",
-      "version": "12.18.0",
-      "thumbs": 0
-     },
-     {
-      "text": "unable to book cabs and even the support team is not helping fix the issue ...",
-      "score": 1,
-      "date": "2026-09-01",
-      "version": "12.18.0",
-      "thumbs": 0
-     }
-    ]
-   },
-   {
-    "id": "login_otp",
-    "label": "Login / OTP not received",
-    "owner": "app",
-    "neg_reviews": 13,
-    "share_of_negative": 0.06403940886699508,
-    "prev_share": 0.07177033492822966,
-    "change_pts": -0.007730926061234586,
-    "stars_lost_share": 0.05249804839968775,
-    "avg_lift_if_fixed": 0.06332391713747647,
-    "quotes": [
-     {
-      "text": "not getting OTP or Mail OTP every useless App your developer or useless hire better person who knows how to build proper app",
-      "score": 1,
-      "date": "2026-10-13",
-      "version": "12.20.0",
-      "thumbs": 0
-     },
-     {
-      "text": "The new feature and very annoying feature which you have introduced - when you click view otp , it pops up the seat belt safely first. Why do you ask for user input one more click . very annoying I should be able to see the otp in one click.",
-      "score": 2,
-      "date": "2026-10-09",
       "version": "12.19.0",
-      "thumbs": 0
-     },
-     {
-      "text": "I try to login to this app but it's not sending any otp to login without login how we can use this app \ud83d\ude24\ud83d\ude24\ud83d\ude24 technical team please check once about this issue",
-      "score": 1,
-      "date": "2026-10-04",
-      "version": NaN,
       "thumbs": 0
      }
     ]
@@ -421,12 +387,12 @@
     "id": "cab_delay",
     "label": "Cab late / not assigned / no-show by vendor",
     "owner": "service",
-    "neg_reviews": 14,
-    "share_of_negative": 0.06896551724137931,
-    "prev_share": 0.11483253588516747,
-    "change_pts": -0.04586701864378816,
-    "stars_lost_share": 0.045277127244340354,
-    "avg_lift_if_fixed": 0.05461393596986817,
+    "neg_reviews": 13,
+    "share_of_negative": 0.06565656565656566,
+    "prev_share": 0.10426540284360189,
+    "change_pts": -0.03860883718703623,
+    "stars_lost_share": 0.04231536926147704,
+    "avg_lift_if_fixed": 0.050839328537170256,
     "quotes": [
      {
       "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
@@ -436,17 +402,85 @@
       "thumbs": 2
      },
      {
+      "text": "Worst Application Ever saw.. I have been waiting for 3 hours but the cab driver didn't respond My ride got cancelled 3 times and their customer services are even worse we cannot call them and didn't get any help yet",
+      "score": 1,
+      "date": "2026-10-27",
+      "version": "12.20.0",
+      "thumbs": 0
+     },
+     {
       "text": "Taytay-Five Neo 615pm sched is always late! Always more than an hour late!",
       "score": 1,
       "date": "2026-09-21",
       "version": "12.18.1",
       "thumbs": 0
+     }
+    ]
+   },
+   {
+    "id": "forced_prompts",
+    "label": "Forced ratings, pop-ups, notification spam, permissions",
+    "owner": "product",
+    "neg_reviews": 12,
+    "share_of_negative": 0.06060606060606061,
+    "prev_share": 0.05687203791469194,
+    "change_pts": 0.003734022691368667,
+    "stars_lost_share": 0.04211576846307385,
+    "avg_lift_if_fixed": 0.050599520383693045,
+    "quotes": [
+     {
+      "text": "I'm getting calling permission is disabled as per company policy",
+      "score": 1,
+      "date": "2026-08-19",
+      "version": "12.17.0",
+      "thumbs": 1
      },
      {
-      "text": "I keep getting pop-ups regarding cab delay notification. one notification would be sufficient but I keep getting pop-ups every few minutes.",
+      "text": "Every time it asks for permission for terms and conditions. several instances it won't allow booking. Last three days raising quarries to issue with booking shuttle for next week. Thousands of employees facing problems still no notification not response.",
       "score": 1,
-      "date": "2026-09-16",
-      "version": "12.18.1",
+      "date": "2026-10-27",
+      "version": "12.20.0",
+      "thumbs": 0
+     },
+     {
+      "text": "forcing me to give rating after every ride, so I came here to give you 1 star. because if I don't rate, I can't use the app as there is no skip option.",
+      "score": 1,
+      "date": "2026-10-08",
+      "version": "12.19.0",
+      "thumbs": 0
+     }
+    ]
+   },
+   {
+    "id": "integrity_block",
+    "label": "\"Not installed from Play Store\" lockout",
+    "owner": "app",
+    "neg_reviews": 8,
+    "share_of_negative": 0.04040404040404041,
+    "prev_share": 0.02843601895734597,
+    "change_pts": 0.011968021446694437,
+    "stars_lost_share": 0.03952095808383234,
+    "avg_lift_if_fixed": 0.04748201438848921,
+    "quotes": [
+     {
+      "text": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+      "score": 1,
+      "date": "2026-10-09",
+      "version": NaN,
+      "thumbs": 0
+     },
+     {
+      "text": "everytime I download it won't open again after 1-2 days and I have to download it again",
+      "score": 1,
+      "date": "2026-09-24",
+      "version": "12.19.0",
+      "thumbs": 0
+     },
+     {
+      "text": "Please fix the bug..Quite frequently it gives error as\"move in synch application can not be installed/opened as it was not downloaded from play store\".",
+      "score": 2,
+      "date": "2026-09-24",
+      "version": "12.19.0",
       "thumbs": 0
      }
     ]
@@ -456,11 +490,11 @@
     "label": "Long routes / bad pooling",
     "owner": "service",
     "neg_reviews": 11,
-    "share_of_negative": 0.054187192118226604,
-    "prev_share": 0.0430622009569378,
-    "change_pts": 0.011124991161288802,
-    "stars_lost_share": 0.03786104605776737,
-    "avg_lift_if_fixed": 0.045668549905838046,
+    "share_of_negative": 0.05555555555555555,
+    "prev_share": 0.04265402843601896,
+    "change_pts": 0.012901527119536592,
+    "stars_lost_share": 0.038722554890219564,
+    "avg_lift_if_fixed": 0.04652278177458034,
     "quotes": [
      {
       "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram",
@@ -486,49 +520,15 @@
     ]
    },
    {
-    "id": "forced_prompts",
-    "label": "Forced ratings, pop-ups, notification spam, permissions",
-    "owner": "product",
-    "neg_reviews": 11,
-    "share_of_negative": 0.054187192118226604,
-    "prev_share": 0.06220095693779904,
-    "change_pts": -0.008013764819572437,
-    "stars_lost_share": 0.03649492583918813,
-    "avg_lift_if_fixed": 0.04402071563088512,
-    "quotes": [
-     {
-      "text": "I'm getting calling permission is disabled as per company policy",
-      "score": 1,
-      "date": "2026-08-19",
-      "version": "12.17.0",
-      "thumbs": 1
-     },
-     {
-      "text": "forcing me to give rating after every ride, so I came here to give you 1 star. because if I don't rate, I can't use the app as there is no skip option.",
-      "score": 1,
-      "date": "2026-10-08",
-      "version": "12.19.0",
-      "thumbs": 0
-     },
-     {
-      "text": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every button click it is asking for policy acceptance, which is very unprofessional. overall user experience is very bad. many bugs and a lot of improvement required. completely unhappy with incorrect app functioning",
-      "score": 1,
-      "date": "2026-10-05",
-      "version": "12.19.0",
-      "thumbs": 0
-     }
-    ]
-   },
-   {
     "id": "performance",
     "label": "Slow / loading / freezes",
     "owner": "app",
-    "neg_reviews": 11,
-    "share_of_negative": 0.054187192118226604,
-    "prev_share": 0.0861244019138756,
-    "change_pts": -0.031937209795649,
-    "stars_lost_share": 0.03376268540202967,
-    "avg_lift_if_fixed": 0.040725047080979286,
+    "neg_reviews": 10,
+    "share_of_negative": 0.050505050505050504,
+    "prev_share": 0.07109004739336493,
+    "change_pts": -0.020584996888314423,
+    "stars_lost_share": 0.02974051896207585,
+    "avg_lift_if_fixed": 0.03573141486810552,
     "quotes": [
      {
       "text": "The app is too slow and is very slow to show the correct location and also the map face is really not good .. worst app to use",
@@ -558,11 +558,11 @@
     "label": "No in-app way to give feedback / complaints ignored",
     "owner": "product",
     "neg_reviews": 5,
-    "share_of_negative": 0.024630541871921183,
-    "prev_share": 0.014354066985645933,
-    "change_pts": 0.01027647488627525,
-    "stars_lost_share": 0.01405152224824356,
-    "avg_lift_if_fixed": 0.01694915254237288,
+    "share_of_negative": 0.025252525252525252,
+    "prev_share": 0.014218009478672985,
+    "change_pts": 0.011034515773852267,
+    "stars_lost_share": 0.01437125748502994,
+    "avg_lift_if_fixed": 0.017266187050359712,
     "quotes": [
      {
       "text": "You can't even write in built in feedback text box. full of bugs.",
@@ -592,11 +592,11 @@
     "label": "Forced logouts / session expired",
     "owner": "app",
     "neg_reviews": 2,
-    "share_of_negative": 0.009852216748768473,
-    "prev_share": 0.0430622009569378,
-    "change_pts": -0.03320998420816933,
-    "stars_lost_share": 0.0117096018735363,
-    "avg_lift_if_fixed": 0.014124293785310734,
+    "share_of_negative": 0.010101010101010102,
+    "prev_share": 0.037914691943127965,
+    "change_pts": -0.02781368184211786,
+    "stars_lost_share": 0.011976047904191617,
+    "avg_lift_if_fixed": 0.014388489208633094,
     "quotes": [
      {
       "text": "I'm not able to login as it was automatically logged out and no otp received with registered mobile number and no one is helping me",
@@ -611,12 +611,12 @@
     "id": "safety",
     "label": "Safety concern",
     "owner": "service",
-    "neg_reviews": 5,
-    "share_of_negative": 0.024630541871921183,
-    "prev_share": 0.023923444976076555,
-    "change_pts": 0.0007070968958446285,
-    "stars_lost_share": 0.009562841530054643,
-    "avg_lift_if_fixed": 0.011534839924670432,
+    "neg_reviews": 4,
+    "share_of_negative": 0.020202020202020204,
+    "prev_share": 0.02843601895734597,
+    "change_pts": -0.008233998755325767,
+    "stars_lost_share": 0.008183632734530938,
+    "avg_lift_if_fixed": 0.009832134292565946,
     "quotes": [
      {
       "text": "Too much pop up notification, which won't close easily. even you close the app and restart again it will show pop up notification nothing to display but no close option. frustrating experience. If someone needs to use SOS button, he/she can not use in timely manner due to useless notification pop ups",
@@ -646,11 +646,11 @@
     "label": "Driver behaviour",
     "owner": "service",
     "neg_reviews": 2,
-    "share_of_negative": 0.009852216748768473,
-    "prev_share": 0.004784688995215311,
-    "change_pts": 0.005067527753553162,
-    "stars_lost_share": 0.007416081186572989,
-    "avg_lift_if_fixed": 0.008945386064030132,
+    "share_of_negative": 0.010101010101010102,
+    "prev_share": 0.004739336492890996,
+    "change_pts": 0.005361673608119106,
+    "stars_lost_share": 0.007584830339321357,
+    "avg_lift_if_fixed": 0.009112709832134292,
     "quotes": [
      {
       "text": "Drivers are rude no professonalism and transport help team doesn't help at all",
@@ -673,11 +673,11 @@
     "label": "Calling / chatting with driver",
     "owner": "app",
     "neg_reviews": 2,
-    "share_of_negative": 0.009852216748768473,
-    "prev_share": 0.014354066985645933,
-    "change_pts": -0.00450185023687746,
-    "stars_lost_share": 0.0039032006245120995,
-    "avg_lift_if_fixed": 0.004708097928436911,
+    "share_of_negative": 0.010101010101010102,
+    "prev_share": 0.009478672985781991,
+    "change_pts": 0.0006223371152281106,
+    "stars_lost_share": 0.003992015968063872,
+    "avg_lift_if_fixed": 0.004796163069544364,
     "quotes": [
      {
       "text": "I'm getting calling permission is disabled as per company policy",
@@ -699,30 +699,30 @@
  },
  "half_year": {
   "window_days": 180,
-  "reviews": 1490,
-  "negative": 412,
-  "avg": 3.819463087248322,
-  "prev_avg": 3.8633150039277298,
-  "neg_share": 0.276510067114094,
-  "prev_neg_share": 0.2623723487824038,
-  "unclassified_share": 0.24029126213592233,
+  "reviews": 1486,
+  "negative": 409,
+  "avg": 3.827052489905787,
+  "prev_avg": 3.8678943154523617,
+  "neg_share": 0.275235531628533,
+  "prev_neg_share": 0.2618094475580464,
+  "unclassified_share": 0.24449877750611246,
   "stars_lost_by_owner": {
-   "app": 0.3229107447413303,
-   "product": 0.18504832291074472,
-   "service": 0.22882319499715748,
-   "unclassified": 0.2632177373507675
+   "app": 0.31707783515012433,
+   "product": 0.18387837062535856,
+   "service": 0.22996748900363356,
+   "unclassified": 0.26907630522088355
   },
   "themes": [
    {
     "id": "crash_wont_open",
     "label": "Crashes / won't open / blank screen",
     "owner": "app",
-    "neg_reviews": 52,
-    "share_of_negative": 0.1262135922330097,
-    "prev_share": 0.11077844311377245,
-    "change_pts": 0.015435149119237254,
-    "stars_lost_share": 0.10233086981239341,
-    "avg_lift_if_fixed": 0.12080536912751678,
+    "neg_reviews": 54,
+    "share_of_negative": 0.13202933985330073,
+    "prev_share": 0.11009174311926606,
+    "change_pts": 0.02193759673403467,
+    "stars_lost_share": 0.1069994262765347,
+    "avg_lift_if_fixed": 0.12550471063257065,
     "quotes": [
      {
       "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
@@ -751,12 +751,12 @@
     "id": "booking_flow",
     "label": "Booking / cancel / edit / no-show rules",
     "owner": "product",
-    "neg_reviews": 44,
-    "share_of_negative": 0.10679611650485436,
-    "prev_share": 0.08982035928143713,
-    "change_pts": 0.016975757223417237,
-    "stars_lost_share": 0.07106310403638431,
-    "avg_lift_if_fixed": 0.08389261744966443,
+    "neg_reviews": 43,
+    "share_of_negative": 0.10513447432762836,
+    "prev_share": 0.0856269113149847,
+    "change_pts": 0.019507563012643656,
+    "stars_lost_share": 0.06884681583476764,
+    "avg_lift_if_fixed": 0.08075370121130551,
     "quotes": [
      {
       "text": "does not let you book a bus if location accuracy is off. why do you need location accuracy? are you going to bring the bus to my house? well it does not even let you scan QR code now without location accuracy. thanks guys. any more ways you can make your app more useless?",
@@ -785,12 +785,12 @@
     "id": "service_general",
     "label": "General service complaint (unspecific)",
     "owner": "service",
-    "neg_reviews": 27,
-    "share_of_negative": 0.06553398058252427,
-    "prev_share": 0.0658682634730539,
-    "change_pts": -0.00033428289052962745,
-    "stars_lost_share": 0.06253553155201819,
-    "avg_lift_if_fixed": 0.0738255033557047,
+    "neg_reviews": 28,
+    "share_of_negative": 0.06845965770171149,
+    "prev_share": 0.0672782874617737,
+    "change_pts": 0.0011813702399377929,
+    "stars_lost_share": 0.06483075157773953,
+    "avg_lift_if_fixed": 0.07604306864064603,
     "quotes": [
      {
       "text": "Complaint Regarding Pathetic Transport Service I would like to raise a complaint regarding the pathetic transport service provided today.",
@@ -816,49 +816,15 @@
     ]
    },
    {
-    "id": "cab_delay",
-    "label": "Cab late / not assigned / no-show by vendor",
-    "owner": "service",
-    "neg_reviews": 38,
-    "share_of_negative": 0.09223300970873786,
-    "prev_share": 0.04790419161676647,
-    "change_pts": 0.044328818091971395,
-    "stars_lost_share": 0.06158802349819973,
-    "avg_lift_if_fixed": 0.07270693512304251,
-    "quotes": [
-     {
-      "text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
-      "score": 1,
-      "date": "2026-07-01",
-      "version": "12.14.1",
-      "thumbs": 3
-     },
-     {
-      "text": "Worst experience with this app, there is no perfect timing scheduled it changes very badly and when we try to contact the driver no response the auto reply comes (looks like the driver is not responding) and there should be a chat box for me and the driver to connect at least through msg. Please Moveinsync and update these things. Humble request.",
-      "score": 1,
-      "date": "2026-04-28",
-      "version": "12.11.2",
-      "thumbs": 3
-     },
-     {
-      "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
-      "score": 1,
-      "date": "2026-08-31",
-      "version": "12.18.0",
-      "thumbs": 2
-     }
-    ]
-   },
-   {
     "id": "tracking_eta",
     "label": "Live tracking / ETA inaccurate",
     "owner": "app",
-    "neg_reviews": 38,
-    "share_of_negative": 0.09223300970873786,
-    "prev_share": 0.08083832335329341,
-    "change_pts": 0.011394686355444453,
-    "stars_lost_share": 0.06045101383361759,
-    "avg_lift_if_fixed": 0.07136465324384789,
+    "neg_reviews": 37,
+    "share_of_negative": 0.09046454767726161,
+    "prev_share": 0.0764525993883792,
+    "change_pts": 0.014011948288882414,
+    "stars_lost_share": 0.05957161981258367,
+    "avg_lift_if_fixed": 0.06987438313144909,
     "quotes": [
      {
       "text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
@@ -884,15 +850,49 @@
     ]
    },
    {
+    "id": "support",
+    "label": "Helpdesk / support unreachable",
+    "owner": "service",
+    "neg_reviews": 35,
+    "share_of_negative": 0.08557457212713937,
+    "prev_share": 0.07339449541284404,
+    "change_pts": 0.01218007671429533,
+    "stars_lost_share": 0.05890227576974565,
+    "avg_lift_if_fixed": 0.06908927770300584,
+    "quotes": [
+     {
+      "text": "Not worth it - worst ever employee complaints are ignoring by transportation & Cab owners worst facilities.",
+      "score": 2,
+      "date": "2026-07-16",
+      "version": "12.14.1",
+      "thumbs": 1
+     },
+     {
+      "text": "not getting the otp to login. i mailed their customer support team multiple times but still no response. very disappointed",
+      "score": 1,
+      "date": "2026-05-28",
+      "version": "12.12.3",
+      "thumbs": 1
+     },
+     {
+      "text": "Very slow, timetaking and does not support fingerprint login, also it does not save login info",
+      "score": 1,
+      "date": "2026-05-17",
+      "version": "12.12.3",
+      "thumbs": 1
+     }
+    ]
+   },
+   {
     "id": "ux_redesign",
     "label": "New UI / update made it worse",
     "owner": "product",
     "neg_reviews": 32,
-    "share_of_negative": 0.07766990291262135,
-    "prev_share": 0.06287425149700598,
-    "change_pts": 0.014795651415615368,
-    "stars_lost_share": 0.05827174530983512,
-    "avg_lift_if_fixed": 0.06879194630872482,
+    "share_of_negative": 0.07823960880195599,
+    "prev_share": 0.0581039755351682,
+    "change_pts": 0.020135633266787793,
+    "stars_lost_share": 0.058806655192197355,
+    "avg_lift_if_fixed": 0.06897711978465679,
     "quotes": [
      {
       "text": "dislike the new update. Bring the old version back. It was simple and minimalist.",
@@ -918,35 +918,35 @@
     ]
    },
    {
-    "id": "support",
-    "label": "Helpdesk / support unreachable",
+    "id": "cab_delay",
+    "label": "Cab late / not assigned / no-show by vendor",
     "owner": "service",
-    "neg_reviews": 34,
-    "share_of_negative": 0.0825242718446602,
-    "prev_share": 0.07784431137724551,
-    "change_pts": 0.004679960467414687,
-    "stars_lost_share": 0.0557134735645253,
-    "avg_lift_if_fixed": 0.06577181208053691,
+    "neg_reviews": 35,
+    "share_of_negative": 0.08557457212713937,
+    "prev_share": 0.0581039755351682,
+    "change_pts": 0.027470596591971173,
+    "stars_lost_share": 0.05679862306368331,
+    "avg_lift_if_fixed": 0.06662180349932706,
     "quotes": [
      {
-      "text": "Worst experience with this app, there is no perfect timing scheduled it changes very badly and when we try to contact the driver no response the auto reply comes (looks like the driver is not responding) and there should be a chat box for me and the driver to connect at least through msg. Please Moveinsync and update these things. Humble request.",
+      "text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
       "score": 1,
-      "date": "2026-04-28",
-      "version": "12.11.2",
+      "date": "2026-07-01",
+      "version": "12.14.1",
       "thumbs": 3
      },
      {
-      "text": "Not worth it - worst ever employee complaints are ignoring by transportation & Cab owners worst facilities.",
-      "score": 2,
-      "date": "2026-07-16",
-      "version": "12.14.1",
-      "thumbs": 1
+      "text": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
+      "score": 1,
+      "date": "2026-08-31",
+      "version": "12.18.0",
+      "thumbs": 2
      },
      {
-      "text": "not getting the otp to login. i mailed their customer support team multiple times but still no response. very disappointed",
+      "text": "Eventhough my cab well within 4 hours of booking timing and my trip started, it shows error and cant track cab location. needs fix asap",
       "score": 1,
-      "date": "2026-05-28",
-      "version": "12.12.3",
+      "date": "2026-06-22",
+      "version": "12.14.0",
       "thumbs": 1
      }
     ]
@@ -956,11 +956,11 @@
     "label": "Login / OTP not received",
     "owner": "app",
     "neg_reviews": 28,
-    "share_of_negative": 0.06796116504854369,
-    "prev_share": 0.09580838323353294,
-    "change_pts": -0.027847218184989253,
-    "stars_lost_share": 0.05107068410081486,
-    "avg_lift_if_fixed": 0.06029082774049218,
+    "share_of_negative": 0.06845965770171149,
+    "prev_share": 0.10091743119266056,
+    "change_pts": -0.03245777349094907,
+    "stars_lost_share": 0.05268693822910691,
+    "avg_lift_if_fixed": 0.06179901301031854,
     "quotes": [
      {
       "text": "wasted app email otp system don't work everyday have to login via otp don't know why and how created this application. so frustrating to use this app",
@@ -986,49 +986,15 @@
     ]
    },
    {
-    "id": "performance",
-    "label": "Slow / loading / freezes",
-    "owner": "app",
-    "neg_reviews": 29,
-    "share_of_negative": 0.0703883495145631,
-    "prev_share": 0.041916167664670656,
-    "change_pts": 0.028472181849892447,
-    "stars_lost_share": 0.04690164866401365,
-    "avg_lift_if_fixed": 0.05536912751677853,
-    "quotes": [
-     {
-      "text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
-      "score": 1,
-      "date": "2026-07-01",
-      "version": "12.14.1",
-      "thumbs": 3
-     },
-     {
-      "text": "most of the time app keeps loading even in good internet connectivity.",
-      "score": 1,
-      "date": "2026-06-23",
-      "version": "12.14.0",
-      "thumbs": 1
-     },
-     {
-      "text": "Very slow, timetaking and does not support fingerprint login, also it does not save login info",
-      "score": 1,
-      "date": "2026-05-17",
-      "version": "12.12.3",
-      "thumbs": 1
-     }
-    ]
-   },
-   {
     "id": "forced_prompts",
     "label": "Forced ratings, pop-ups, notification spam, permissions",
     "owner": "product",
     "neg_reviews": 24,
-    "share_of_negative": 0.05825242718446602,
-    "prev_share": 0.03592814371257485,
-    "change_pts": 0.022324283471891172,
-    "stars_lost_share": 0.042637862421830576,
-    "avg_lift_if_fixed": 0.05033557046979865,
+    "share_of_negative": 0.05867970660146699,
+    "prev_share": 0.039755351681957186,
+    "change_pts": 0.018924354919509806,
+    "stars_lost_share": 0.04302925989672977,
+    "avg_lift_if_fixed": 0.05047106325706594,
     "quotes": [
      {
       "text": "I'm getting calling permission is disabled as per company policy",
@@ -1054,36 +1020,36 @@
     ]
    },
    {
-    "id": "integrity_block",
-    "label": "\"Not installed from Play Store\" lockout",
+    "id": "performance",
+    "label": "Slow / loading / freezes",
     "owner": "app",
-    "neg_reviews": 15,
-    "share_of_negative": 0.03640776699029126,
-    "prev_share": 0.0029940119760479044,
-    "change_pts": 0.03341375501424335,
-    "stars_lost_share": 0.03467879476975554,
-    "avg_lift_if_fixed": 0.04093959731543624,
+    "neg_reviews": 25,
+    "share_of_negative": 0.061124694376528114,
+    "prev_share": 0.04892966360856269,
+    "change_pts": 0.012195030767965423,
+    "stars_lost_share": 0.03930005737234653,
+    "avg_lift_if_fixed": 0.04609690444145357,
     "quotes": [
      {
-      "text": "again and again it's getting stopped.. showing that it can't open as it is not downloaded from playstore. in last 3 weeks I uninstall an installed it for 10 times due to the same error",
-      "score": 2,
-      "date": "2026-08-02",
-      "version": NaN,
+      "text": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
+      "score": 1,
+      "date": "2026-07-01",
+      "version": "12.14.1",
+      "thumbs": 3
+     },
+     {
+      "text": "most of the time app keeps loading even in good internet connectivity.",
+      "score": 1,
+      "date": "2026-06-23",
+      "version": "12.14.0",
       "thumbs": 1
      },
      {
-      "text": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+      "text": "Very slow, timetaking and does not support fingerprint login, also it does not save login info",
       "score": 1,
-      "date": "2026-10-09",
-      "version": NaN,
-      "thumbs": 0
-     },
-     {
-      "text": "everytime I download it won't open again after 1-2 days and I have to download it again",
-      "score": 1,
-      "date": "2026-09-24",
-      "version": "12.19.0",
-      "thumbs": 0
+      "date": "2026-05-17",
+      "version": "12.12.3",
+      "thumbs": 1
      }
     ]
    },
@@ -1092,11 +1058,11 @@
     "label": "Long routes / bad pooling",
     "owner": "service",
     "neg_reviews": 20,
-    "share_of_negative": 0.04854368932038835,
-    "prev_share": 0.02694610778443114,
-    "change_pts": 0.02159758153595721,
-    "stars_lost_share": 0.03373128671593709,
-    "avg_lift_if_fixed": 0.03982102908277405,
+    "share_of_negative": 0.0488997555012225,
+    "prev_share": 0.027522935779816515,
+    "change_pts": 0.021376819721405982,
+    "stars_lost_share": 0.034040925607190665,
+    "avg_lift_if_fixed": 0.03992821893225662,
     "quotes": [
      {
       "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram",
@@ -1122,15 +1088,49 @@
     ]
    },
    {
+    "id": "integrity_block",
+    "label": "\"Not installed from Play Store\" lockout",
+    "owner": "app",
+    "neg_reviews": 14,
+    "share_of_negative": 0.034229828850855744,
+    "prev_share": 0.0061162079510703364,
+    "change_pts": 0.028113620899785408,
+    "stars_lost_share": 0.03270223752151463,
+    "avg_lift_if_fixed": 0.03835800807537012,
+    "quotes": [
+     {
+      "text": "again and again it's getting stopped.. showing that it can't open as it is not downloaded from playstore. in last 3 weeks I uninstall an installed it for 10 times due to the same error",
+      "score": 2,
+      "date": "2026-08-02",
+      "version": NaN,
+      "thumbs": 1
+     },
+     {
+      "text": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+      "score": 1,
+      "date": "2026-10-09",
+      "version": NaN,
+      "thumbs": 0
+     },
+     {
+      "text": "everytime I download it won't open again after 1-2 days and I have to download it again",
+      "score": 1,
+      "date": "2026-09-24",
+      "version": "12.19.0",
+      "thumbs": 0
+     }
+    ]
+   },
+   {
     "id": "session_logout",
     "label": "Forced logouts / session expired",
     "owner": "app",
-    "neg_reviews": 11,
-    "share_of_negative": 0.02669902912621359,
-    "prev_share": 0.020958083832335328,
-    "change_pts": 0.005740945293878263,
-    "stars_lost_share": 0.01686564335796854,
-    "avg_lift_if_fixed": 0.019910514541387023,
+    "neg_reviews": 10,
+    "share_of_negative": 0.02444987775061125,
+    "prev_share": 0.021406727828746176,
+    "change_pts": 0.0030431499218650723,
+    "stars_lost_share": 0.015873015873015872,
+    "avg_lift_if_fixed": 0.018618214445939883,
     "quotes": [
      {
       "text": "This app doesn't work properly. it always shows 'SESSION EXPIRED. YOU ARE UNAUTHORISED. going back in 2seconds'. No location is suggested in the search.",
@@ -1160,11 +1160,11 @@
     "label": "No in-app way to give feedback / complaints ignored",
     "owner": "product",
     "neg_reviews": 8,
-    "share_of_negative": 0.019417475728155338,
+    "share_of_negative": 0.019559902200488997,
     "prev_share": 0.0,
-    "change_pts": 0.019417475728155338,
-    "stars_lost_share": 0.013075611142694713,
-    "avg_lift_if_fixed": 0.015436241610738255,
+    "change_pts": 0.019559902200488997,
+    "stars_lost_share": 0.013195639701663799,
+    "avg_lift_if_fixed": 0.01547779273216689,
     "quotes": [
      {
       "text": "You can't even write in built in feedback text box. full of bugs.",
@@ -1190,49 +1190,15 @@
     ]
    },
    {
-    "id": "driver_contact",
-    "label": "Calling / chatting with driver",
-    "owner": "app",
-    "neg_reviews": 5,
-    "share_of_negative": 0.012135922330097087,
-    "prev_share": 0.017964071856287425,
-    "change_pts": -0.005828149526190337,
-    "stars_lost_share": 0.010612090202766723,
-    "avg_lift_if_fixed": 0.012527964205816554,
-    "quotes": [
-     {
-      "text": "Worst experience with this app, there is no perfect timing scheduled it changes very badly and when we try to contact the driver no response the auto reply comes (looks like the driver is not responding) and there should be a chat box for me and the driver to connect at least through msg. Please Moveinsync and update these things. Humble request.",
-      "score": 1,
-      "date": "2026-04-28",
-      "version": "12.11.2",
-      "thumbs": 3
-     },
-     {
-      "text": "I'm getting calling permission is disabled as per company policy",
-      "score": 1,
-      "date": "2026-08-19",
-      "version": "12.17.0",
-      "thumbs": 1
-     },
-     {
-      "text": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every button click it is asking for policy acceptance, which is very unprofessional. overall user experience is very bad. many bugs and a lot of improvement required. completely unhappy with incorrect app functioning",
-      "score": 1,
-      "date": "2026-10-05",
-      "version": "12.19.0",
-      "thumbs": 0
-     }
-    ]
-   },
-   {
     "id": "safety",
     "label": "Safety concern",
     "owner": "service",
     "neg_reviews": 10,
-    "share_of_negative": 0.024271844660194174,
-    "prev_share": 0.008982035928143712,
-    "change_pts": 0.015289808732050462,
-    "stars_lost_share": 0.010517339397384876,
-    "avg_lift_if_fixed": 0.012416107382550333,
+    "share_of_negative": 0.02444987775061125,
+    "prev_share": 0.009174311926605505,
+    "change_pts": 0.015275565824005743,
+    "stars_lost_share": 0.01061388410786001,
+    "avg_lift_if_fixed": 0.012449528936742931,
     "quotes": [
      {
       "text": "drivers and management are extremely rude and they talk in an inappropriate and disrespectful manner. Drivers shout during the conversation. Such behavior is unacceptable and that makes feel very uncomfortable and unsafe",
@@ -1258,15 +1224,49 @@
     ]
    },
    {
+    "id": "driver_contact",
+    "label": "Calling / chatting with driver",
+    "owner": "app",
+    "neg_reviews": 4,
+    "share_of_negative": 0.009779951100244499,
+    "prev_share": 0.021406727828746176,
+    "change_pts": -0.011626776728501678,
+    "stars_lost_share": 0.009944540065021991,
+    "avg_lift_if_fixed": 0.011664423508299685,
+    "quotes": [
+     {
+      "text": "I'm getting calling permission is disabled as per company policy",
+      "score": 1,
+      "date": "2026-08-19",
+      "version": "12.17.0",
+      "thumbs": 1
+     },
+     {
+      "text": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every button click it is asking for policy acceptance, which is very unprofessional. overall user experience is very bad. many bugs and a lot of improvement required. completely unhappy with incorrect app functioning",
+      "score": 1,
+      "date": "2026-10-05",
+      "version": "12.19.0",
+      "thumbs": 0
+     },
+     {
+      "text": "The driver's voice is not audible neither our voice is audible to the driver.",
+      "score": 1,
+      "date": "2026-05-25",
+      "version": "12.12.3",
+      "thumbs": 0
+     }
+    ]
+   },
+   {
     "id": "driver_behavior",
     "label": "Driver behaviour",
     "owner": "service",
     "neg_reviews": 3,
-    "share_of_negative": 0.007281553398058253,
-    "prev_share": 0.0029940119760479044,
-    "change_pts": 0.004287541422010348,
-    "stars_lost_share": 0.004737540269092287,
-    "avg_lift_if_fixed": 0.005592841163310961,
+    "share_of_negative": 0.007334963325183374,
+    "prev_share": 0.0030581039755351682,
+    "change_pts": 0.004276859349648205,
+    "stars_lost_share": 0.0047810288774144186,
+    "avg_lift_if_fixed": 0.0056078959174517716,
     "quotes": [
      {
       "text": "drivers and management are extremely rude and they talk in an inappropriate and disrespectful manner. Drivers shout during the conversation. Such behavior is unacceptable and that makes feel very uncomfortable and unsafe",
@@ -1294,13 +1294,6 @@
   ]
  },
  "monthly": [
-  {
-   "month": "2023-10",
-   "reviews": 85,
-   "avg": 2.7059,
-   "neg_share": 0.5529,
-   "reply_rate": 0.9294
-  },
   {
    "month": "2023-11",
    "reviews": 227,
@@ -1548,19 +1541,26 @@
   },
   {
    "month": "2026-10",
-   "reviews": 172,
-   "avg": 3.8372,
-   "neg_share": 0.2791,
-   "reply_rate": 0.0058
+   "reviews": 218,
+   "avg": 3.8853,
+   "neg_share": 0.2661,
+   "reply_rate": 0.0046
+  },
+  {
+   "month": "2026-11",
+   "reviews": 2,
+   "avg": 3.0,
+   "neg_share": 0.5,
+   "reply_rate": 0.0
   }
  ],
  "versions": [
   {
    "minor": "12.6",
-   "reviews": 205,
-   "avg": 3.7512,
-   "neg_share": 0.2829,
-   "first_seen": "2025-10-24",
+   "reviews": 121,
+   "avg": 3.719,
+   "neg_share": 0.2893,
+   "first_seen": "2025-11-01",
    "rising_themes": []
   },
   {
@@ -1571,7 +1571,7 @@
    "first_seen": "2025-11-20",
    "rising_themes": [
     "Crashes / won't open / blank screen",
-    "Helpdesk / support unreachable"
+    "Live tracking / ETA inaccurate"
    ]
   },
   {
@@ -1672,9 +1672,9 @@
   },
   {
    "minor": "12.17",
-   "reviews": 142,
-   "avg": 3.7394,
-   "neg_share": 0.3028,
+   "reviews": 143,
+   "avg": 3.7203,
+   "neg_share": 0.3077,
    "first_seen": "2026-08-07",
    "rising_themes": [
     "Crashes / won't open / blank screen",
@@ -1683,13 +1683,13 @@
   },
   {
    "minor": "12.18",
-   "reviews": 160,
-   "avg": 3.9938,
-   "neg_share": 0.2375,
+   "reviews": 161,
+   "avg": 3.9752,
+   "neg_share": 0.2422,
    "first_seen": "2026-08-22",
    "rising_themes": [
     "Cab late / not assigned / no-show by vendor",
-    "Helpdesk / support unreachable"
+    "Forced ratings, pop-ups, notification spam, permissions"
    ]
   },
   {
@@ -1699,15 +1699,15 @@
    "neg_share": 0.3115,
    "first_seen": "2026-09-21",
    "rising_themes": [
-    "New UI / update made it worse",
-    "Crashes / won't open / blank screen"
+    "Crashes / won't open / blank screen",
+    "New UI / update made it worse"
    ]
   },
   {
    "minor": "12.20",
-   "reviews": 61,
-   "avg": 3.7049,
-   "neg_share": 0.3115,
+   "reviews": 93,
+   "avg": 3.9355,
+   "neg_share": 0.2473,
    "first_seen": "2026-10-07",
    "rising_themes": [
     "General service complaint (unspecific)"
@@ -1778,10 +1778,10 @@
    },
    {
     "quarter": "2026Q4",
-    "reply_rate": 0.0058
+    "reply_rate": 0.0045
    }
   ],
-  "recent_negative_reply_rate": 0.0049261083743842365,
+  "recent_negative_reply_rate": 0.005050505050505051,
   "last_reply": "2026-10-06"
  },
  "prompt_complaints": {
@@ -1819,7 +1819,7 @@
   ]
  },
  "mismatched_stars": {
-  "count": 20,
+  "count": 19,
   "of": 1037
  },
  "owners": {
